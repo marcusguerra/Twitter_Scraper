@@ -1,6 +1,5 @@
 import csv
-from fuzzywuzzy import fuzz
-from dateutil.relativedelta import relativedelta
+import unicodedata
 from datetime import datetime, timedelta
 from unidecode import unidecode
 file_path = "agronegocio.txt"
@@ -21,7 +20,7 @@ def limpa(lines):
             pos.append(i-1)
             pos.append(i-2)
         if(lines[i] != ""):
-            if(lines[i][0] == "@" or lines[i] == "Em resposta a" or lines[i] == "e" or lines[i] == "Comentar o Tweet" or lines[i]== "Foto quadrada do perfil"):
+            if(lines[i][0] == "@" or lines[i][0] == "imagem" or lines[i] == "Em resposta a" or lines[i] == "e" or lines[i] == "Comentar o Tweet" or lines[i]== "Foto quadrada do perfil"):
                 pos.append(i)
     tweetsLimpos = [tweetsLimpos[i] for i in range(len(tweetsLimpos)) if i not in pos]
     return tweetsLimpos
@@ -34,9 +33,25 @@ def horarioParaDateTime(horario):
     number = int(split_string[0])
     text = split_string[1]
     current_datetime = datetime.now()
-
+    month_mapping = {
+        'jan': 1,
+        'fev': 2,
+        'mar': 3,
+        'abr': 4,
+        'mai': 5,
+        'jun': 6,
+        'jul': 7,
+        'ago': 8,
+        'set': 9,
+        'out': 10,
+        'nov': 11,
+        'dez': 12
+    }
     if(text[0] == "d"):
-        result_datetime = current_datetime.replace(day=number ,hour=horas, minute=minutos, second=segundos)
+        split_string2 = text.split(' ', 1)
+        mes = split_string2[1]
+        mes = month_mapping[mes]
+        result_datetime = current_datetime.replace(month= mes ,day=number ,hour=horas, minute=minutos, second=segundos)
     else:
         horas = 0
         minutos = 0
@@ -115,13 +130,20 @@ def limpaSemPalavra(palavraChave, tweet, horario):
             indexHOR.append(i)
     tweet = [tweet[i] for i in range(len(tweet)) if i not in indexTT]
     horario = [horario[i] for i in range(len(horario)) if i not in indexHOR]
-
     return horario, tweet
 
 
-palavraChave = "pantanal"
+palavraChave = "Reserva Indígena"
+normalized_word = unicodedata.normalize("NFD", palavraChave)
+
+# Remove non-spacing marks and convert to lowercase
+palavraChave = "".join(
+    char.lower() for char in normalized_word if not unicodedata.combining(char)
+)
+
 tweetsLimpos = limpa(lines)
 horario, tweets = linesToTweets(tweetsLimpos)
 horario, tweets =  excluiDuplicatas(tweets, horario)
 horario, tweets = limpaSemPalavra(palavraChave, tweets, horario)
+print("Foram cópiados ", len(tweets)," Tweets")
 escreveCSV(tweets, horario, csv_file, palavraChave)
