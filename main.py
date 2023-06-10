@@ -1,5 +1,8 @@
 import csv
 from collections import defaultdict
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
+from datetime import datetime, timedelta
 from unidecode import unidecode
 file_path = "agronegocio.txt"
 file = open(file_path, "r", encoding="utf-8")
@@ -25,18 +28,62 @@ def limpa(lines):
     tweetsLimpos = [tweetsLimpos[i] for i in range(len(tweetsLimpos)) if i not in pos]
     return tweetsLimpos
 
-def aloca(lines):
+def horarioParaDateTime(horario):
+    horas = 13
+    minutos = 10
+    segundos = 15
+    split_string = horario.split(' ', 1)
+    number = int(split_string[0])
+    text = split_string[1]
+    current_datetime = datetime.now()
+    month_mapping = {
+        'jan': 1,
+        'fev': 2,
+        'mar': 3,
+        'abr': 4,
+        'mai': 5,
+        'jun': 6,
+        'jul': 7,
+        'ago': 8,
+        'set': 9,
+        'out': 10,
+        'nov': 11,
+        'dez': 12
+    }
+    if(text[0] == "d"):
+        split_string2 = text.split(' ', 1)
+        mes = split_string2[1]
+        delta = relativedelta(days=number ,hours=horas, minutes=minutos, seconds=segundos)
+        result_datetime = current_datetime - delta
+    else:
+        horas = 0
+        minutos = 0
+        segundos = 0
+        if(text == "min"):
+            number += int(number)
+        if(text == "h"):
+            number += int(number)
+        if(text == "s"):
+            number += int(number)
+        duration = timedelta(hours=horas, minutes=minutos, seconds=segundos)
+        result_datetime = current_datetime - duration
+    return result_datetime
+
+
+def linesToTweets(lines):
     horario = []
     tweet = []
     tweetAux = ""
     for i in range(len(lines)):
         if (lines[i] == "·"):
-
             k=i+2
             if (k + 2 >= len(lines)):
                 break
-
-            horario.append(lines[i+1])
+            if(lines[i+1] == "·"):
+                continue
+            if not((lines[i+1][0].isnumeric())):
+                continue
+            horario.append(horarioParaDateTime(lines[i+1]))
             while(lines[k] != "·"):
                 tweetAux += lines[k]
                 if(k + 2 >= len(lines)):
@@ -60,7 +107,6 @@ def excluiDuplicatas(tweets, horario):
                 index2.append(value[i+1])
 
     index2.sort(reverse=True)
-
     for index in index2:
         tweets.pop(index)
         horario.pop(index)
@@ -68,16 +114,16 @@ def excluiDuplicatas(tweets, horario):
 
 
 
-def escreveCSV(tweets, horario, file):
+def escreveCSV(tweets, horario, file, palavraChave):
     with open(file, "a", newline="", encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile)
         for i in range(len(tweets)):
-            writer.writerow([tweets[i], horario[i]])
+            writer.writerow([tweets[i], horario[i], palavraChave])
 
 
 
 tweetsLimpos = limpa(lines)
-horario, tweet = aloca(tweetsLimpos)
+horario, tweet = linesToTweets(tweetsLimpos)
 horario, tweet =  excluiDuplicatas(tweet, horario)
-escreveCSV(tweet, horario, csv_file)
-
+unique_items = list(set(horario))
+escreveCSV(tweet, horario, csv_file, "Desenvolvimento Sustentavel")
