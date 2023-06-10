@@ -1,6 +1,5 @@
 import csv
-from collections import defaultdict
-from datetime import datetime
+from fuzzywuzzy import fuzz
 from dateutil.relativedelta import relativedelta
 from datetime import datetime, timedelta
 from unidecode import unidecode
@@ -14,7 +13,6 @@ for line in file:
     lines.append(line.strip())
 
 file.close()
-
 def limpa(lines):
     pos = []
     tweetsLimpos = lines
@@ -36,25 +34,9 @@ def horarioParaDateTime(horario):
     number = int(split_string[0])
     text = split_string[1]
     current_datetime = datetime.now()
-    month_mapping = {
-        'jan': 1,
-        'fev': 2,
-        'mar': 3,
-        'abr': 4,
-        'mai': 5,
-        'jun': 6,
-        'jul': 7,
-        'ago': 8,
-        'set': 9,
-        'out': 10,
-        'nov': 11,
-        'dez': 12
-    }
+
     if(text[0] == "d"):
-        split_string2 = text.split(' ', 1)
-        mes = split_string2[1]
-        delta = relativedelta(days=number ,hours=horas, minutes=minutos, seconds=segundos)
-        result_datetime = current_datetime - delta
+        result_datetime = current_datetime.replace(day=number ,hour=horas, minute=minutos, second=segundos)
     else:
         horas = 0
         minutos = 0
@@ -93,6 +75,8 @@ def linesToTweets(lines):
             tweetAux = ""
     return horario, tweet
 
+
+
 def excluiDuplicatas(tweets, horario):
     indices_dict = {}
     index2 = []
@@ -120,10 +104,24 @@ def escreveCSV(tweets, horario, file, palavraChave):
         for i in range(len(tweets)):
             writer.writerow([tweets[i], horario[i], palavraChave])
 
+#basicamente limpa qualquer tweet que não tenha a palavra chave
+def limpaSemPalavra(palavraChave, tweet, horario):
+    tweetLower = [word.lower() for word in tweet]
+    indexTT = []
+    indexHOR= []
+    for i in range(len(tweetLower)):
+        if not (palavraChave in tweetLower[i]):
+            indexTT.append(i)
+            indexHOR.append(i)
+    tweet = [tweet[i] for i in range(len(tweet)) if i not in indexTT]
+    horario = [horario[i] for i in range(len(horario)) if i not in indexHOR]
+
+    return horario, tweet
 
 
+palavraChave = "pantanal"
 tweetsLimpos = limpa(lines)
-horario, tweet = linesToTweets(tweetsLimpos)
-horario, tweet =  excluiDuplicatas(tweet, horario)
-unique_items = list(set(horario))
-escreveCSV(tweet, horario, csv_file, "Desenvolvimento Sustentavel")
+horario, tweets = linesToTweets(tweetsLimpos)
+horario, tweets =  excluiDuplicatas(tweets, horario)
+horario, tweets = limpaSemPalavra(palavraChave, tweets, horario)
+escreveCSV(tweets, horario, csv_file, palavraChave)
