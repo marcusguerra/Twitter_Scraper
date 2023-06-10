@@ -133,7 +133,7 @@ def limpaSemPalavra(palavraChave, tweet, horario):
     return horario, tweet
 
 
-palavraChave = "Reserva Indígena"
+palavraChave = "garimpo"
 normalized_word = unicodedata.normalize("NFD", palavraChave)
 
 # Remove non-spacing marks and convert to lowercase
