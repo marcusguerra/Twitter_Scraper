@@ -114,10 +114,13 @@ def excluiDuplicatas(tweets, horario):
 
 
 def escreveCSV(tweets, horario, file, palavraChave):
+    next = ""
     with open(file, "a", newline="", encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile)
         for i in range(len(tweets)):
             writer.writerow([tweets[i], horario[i], palavraChave])
+        writer.writerow([next, next, next])
+
 
 #basicamente limpa qualquer tweet que não tenha a palavra chave
 def limpaSemPalavra(palavraChave, tweet, horario):
@@ -133,7 +136,7 @@ def limpaSemPalavra(palavraChave, tweet, horario):
     return horario, tweet
 
 
-palavraChave = "Desmatamento"
+palavraChave = "meio ambiente"
 normalized_word = unicodedata.normalize("NFD", palavraChave)
 
 # Remove non-spacing marks and convert to lowercase
