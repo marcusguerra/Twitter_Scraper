@@ -136,7 +136,7 @@ def limpaSemPalavra(palavraChave, tweet, horario):
     return horario, tweet
 
 
-palavraChave = "agriculturaaaaaaa"
+palavraChave = "bbbbbbbbbbbbbbbbbb"
 normalized_word = unicodedata.normalize("NFD", palavraChave)
 palavraChave = "".join(
     char.lower() for char in normalized_word if not unicodedata.combining(char)
