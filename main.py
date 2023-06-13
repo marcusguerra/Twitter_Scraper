@@ -136,7 +136,7 @@ def limpaSemPalavra(palavraChave, tweet, horario):
     return horario, tweet
 
 
-palavraChave = "Agricultura"
+palavraChave = "Biodiversidadaaaaaae"
 normalized_word = unicodedata.normalize("NFD", palavraChave)
 palavraChave = "".join(
     char.lower() for char in normalized_word if not unicodedata.combining(char)
@@ -146,9 +146,10 @@ tweetsLimpos = limpa(lines)
 horario, tweets = linesToTweets(tweetsLimpos)
 horario, tweets =  excluiDuplicatas(tweets, horario)
 horario, tweets = limpaSemPalavra(palavraChave, tweets, horario)
-
+'''''
 for i in range(len(tweets)):
     print("   ")
     print(tweets[i])
+'''''
 print("Foram cópiados ", len(tweets)," Tweets")
-#escreveCSV(tweets, horario, csv_file, palavraChave)
+escreveCSV(tweets, horario, csv_file, palavraChave)

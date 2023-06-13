@@ -1,20 +1,13 @@
-import csv
+import pandas as pd
+import matplotlib.pyplot as plt
 
-# Specify the path to the CSV file
-csv_file = 'dados.csv'
+df = pd.read_csv('dados.csv', delimiter=',')
 
-# Specify the word you want to remove
-word_to_remove = 'imagem'
+print(df.columns)
+keyword_counts = df['keyWord'].value_counts()
+print(keyword_counts)
+print("total = ", keyword_counts.sum())
+tweet_value = df.loc[13392, 'tweet']
 
-# Read the CSV file and remove the word
-with open(csv_file, 'r') as file:
-    csv_reader = csv.reader(file)
-    data = list(csv_reader)
-    for row in data:
-        if len(row) > 0:  # Check if the row is not empty
-            row[0] = row[0].replace(word_to_remove, '')  # Modify the 'tweet' column
-
-# Overwrite the CSV file with the updated data
-with open(csv_file, 'w', newline='') as file:
-    csv_writer = csv.writer(file)
-    csv_writer.writerows(data)
+# Print the value
+print(tweet_value)
