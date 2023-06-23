@@ -1,2 +1,3 @@
 
-Semi-manual Twitter data colector(only need a twitter account, no api and no error 403), to make the tweet colection just search for the term you want, then copy manualy all the tweets to a txt (i recommend to use Ditto to copy all, and to lock the mouse click so you wont need to hold the click for to long), and then just paste in a txt and run the script
+Semi-manual Twitter data colector(only need a twitter account, no api and no error 403), to make the tweet colection just search for the term you want, then copy the search link to driver.execute_script("window.open('search')"), run the scroll_down, login in to your twitter, then press enter on the terminal, for the last part just put your keyword in to palavraChave and run the main.
+
