@@ -2,7 +2,20 @@ import csv
 import unicodedata
 from datetime import datetime, timedelta
 from unidecode import unidecode
-file_path = "agronegocio.txt"
+
+line_number = 214747
+
+
+with open("output.txt", "r", encoding="utf-8") as file:
+    lines = file.readlines()
+
+# Remove empty lines
+lines = [line for line in lines if line.strip()]
+
+with open("output.txt", "w", encoding="utf-8") as file:
+    file.writelines(lines)
+
+file_path = "output.txt"
 file = open(file_path, "r", encoding="utf-8")
 lines = []
 
@@ -19,9 +32,42 @@ def limpa(lines):
         if (lines[i] == "·"):
             pos.append(i-1)
             pos.append(i-2)
+        #perdão alan turing
         if(lines[i] != ""):
-            if(lines[i][0] == "@" or lines[i] == "Imagem" or lines[i] == "Em resposta a" or lines[i] == "e" or lines[i] == "Comentar o Tweet" or lines[i]== "Foto quadrada do perfil" or lines[i] == "e mais 2" or lines[i] == "Mostrar esta sequência" or (lines[i][0] == "0" and lines[i][1] == ":" and lines[i][2] == "0")):
+            if (
+                    lines[i][0] == "@" or
+                    lines[i] == "Imagem" or
+                    lines[i] == "Em resposta a" or
+                    lines[i] == "e" or
+                    lines[i] == " e" or
+                    lines[i] == "Comentar o Tweet" or
+                    lines[i] == "Foto quadrada do perfil" or
+                    lines[i] == "e mais 2" or
+                    lines[i] == "Mostrar esta sequência" or
+                    (lines[i][0] == "0" and lines[i][1] == ":" and lines[i][2] == "0") or
+                    lines[i] == "Principais" or
+                    lines[i] == "Para ver as teclas de atalho, pressione o ponto de interrogação" or
+                    lines[i] == "Ver teclas de atalho" or
+                    lines[i] == "Mais recentes" or
+                    lines[i] == "Pessoas" or
+                    lines[i] == "Fotos" or
+                    lines[i] == "Vídeos" or
+                    lines[i] == "Ver novos Tweets" or
+                    lines[i] == "Filtros de busca" or
+                    lines[i] == "Qualquer pessoa" or
+                    lines[i] == "Pessoas que você segue" or
+                    lines[i] == "Localização" or
+                    lines[i] == "Em qualquer lugar" or
+                    lines[i] == "Perto de você" or
+                    lines[i] == "Busca avançada" or
+                    lines[i] == "Assuntos do momento" or
+                    lines[i] == "O que está acontecendo" or
+                    lines[i] == "Buscar timeline"
+            ):
                 pos.append(i)
+            if(lines[i].startswith("© 2023 X Corp")):
+                for x in range(35):
+                    pos.append(i-x)
     tweetsLimpos = [tweetsLimpos[i] for i in range(len(tweetsLimpos)) if i not in pos]
     return tweetsLimpos
 
@@ -50,6 +96,8 @@ def horarioParaDateTime(horario):
     if(text[0] == "d"):
         split_string2 = text.split(' ', 1)
         mes = split_string2[1]
+        if(len(mes) == 11):
+            mes = mes[0:3]
         mes = month_mapping[mes]
         result_datetime = current_datetime.replace(month= mes ,day=number ,hour=horas, minute=minutos, second=segundos)
     else:
@@ -136,20 +184,22 @@ def limpaSemPalavra(palavraChave, tweet, horario):
     return horario, tweet
 
 
-palavraChave = "MST111"
+palavraChave = "amazonia"
 normalized_word = unicodedata.normalize("NFD", palavraChave)
 palavraChave = "".join(
     char.lower() for char in normalized_word if not unicodedata.combining(char)
 )
 
 tweetsLimpos = limpa(lines)
+
 horario, tweets = linesToTweets(tweetsLimpos)
 horario, tweets =  excluiDuplicatas(tweets, horario)
+
 horario, tweets = limpaSemPalavra(palavraChave, tweets, horario)
-'''''
-for i in range(len(tweets)):
-    print("   ")
-    print(tweets[i])
-'''''
+
 print("Foram cópiados ", len(tweets)," Tweets")
 escreveCSV(tweets, horario, csv_file, palavraChave)
+
+
+#f = open("output.txt", "w", encoding="utf-8")
+#f.close()
