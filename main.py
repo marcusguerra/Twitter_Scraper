@@ -62,7 +62,8 @@ def limpa(lines):
                     lines[i] == "Busca avançada" or
                     lines[i] == "Assuntos do momento" or
                     lines[i] == "O que está acontecendo" or
-                    lines[i] == "Buscar timeline"
+                    lines[i] == "Buscar timeline" or
+                    lines[i] == "Promovido"
             ):
                 pos.append(i)
             if(lines[i].startswith("© 2023 X Corp")):
@@ -75,6 +76,7 @@ def horarioParaDateTime(horario):
     horas = 13
     minutos = 10
     segundos = 15
+    print(horario)
     split_string = horario.split(' ', 1)
     number = int(split_string[0])
     text = split_string[1]
@@ -184,7 +186,7 @@ def limpaSemPalavra(palavraChave, tweet, horario):
     return horario, tweet
 
 
-palavraChave = "amazonia"
+palavraChave = "desenvolvimento sustentável"
 normalized_word = unicodedata.normalize("NFD", palavraChave)
 palavraChave = "".join(
     char.lower() for char in normalized_word if not unicodedata.combining(char)
@@ -201,5 +203,5 @@ print("Foram cópiados ", len(tweets)," Tweets")
 escreveCSV(tweets, horario, csv_file, palavraChave)
 
 
-#f = open("output.txt", "w", encoding="utf-8")
-#f.close()
+f = open("output.txt", "w", encoding="utf-8")
+f.close()
