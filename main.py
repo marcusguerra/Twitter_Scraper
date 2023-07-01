@@ -3,8 +3,6 @@ import unicodedata
 from datetime import datetime, timedelta
 from unidecode import unidecode
 
-line_number = 214747
-
 
 with open("output.txt", "r", encoding="utf-8") as file:
     lines = file.readlines()
@@ -186,7 +184,7 @@ def limpaSemPalavra(palavraChave, tweet, horario):
     return horario, tweet
 
 
-palavraChave = "desenvolvimento sustentável"
+palavraChave = "mst"
 normalized_word = unicodedata.normalize("NFD", palavraChave)
 palavraChave = "".join(
     char.lower() for char in normalized_word if not unicodedata.combining(char)

@@ -15,7 +15,7 @@ a = str(input("Pronto?"))
 a = "1"
 while(a != "3"):
 
-    driver.execute_script("window.open('search?q=Desenvolvimento sustentável lang%3Apt until%3A2023-06-01 since%3A2023-01-01&src=typed_query&f=live')")
+    driver.execute_script("window.open('search?q=mst lang%3Apt until%3A2023-04-17 since%3A2023-01-01&src=typed_query&f=live')")
     driver.close()
     driver.switch_to.window(driver.window_handles[0])
     a = str(input("Pronto?"))
