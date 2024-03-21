@@ -1,0 +1,549 @@
+1692046842264	geckodriver	INFO	Listening on 127.0.0.1:63323
+1692046845337	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63324" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cotoq\\AppData\\Local\\Temp\\rust_mozprofileGvNfSx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692046845717	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692046845818	Marionette	INFO	Listening on port 63334
+WebDriver BiDi listening on ws://127.0.0.1:63324
+Read port: 63334
+1692046846027	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63324/devtools/browser/0f24b5e7-40bf-4d2f-a36c-ebf64793b2af
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 597))
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: , line 0: uncaught exception: Not logged in
+console.error: ({})
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: moz-extension://ed6134a2-6c13-49ea-9cfa-ba1356cbbe97/scripts/helpers.js, line 1211: TypeError: trendsData.value is undefined
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.error: ({})
+JavaScript warning: https://www.youtube.com/s/player/3cd2d050/player_ias.vflset/pt_BR/base.js, line 10973: Script terminated by timeout at:
+$W.prototype.va@https://www.youtube.com/s/player/3cd2d050/player_ias.vflset/pt_BR/base.js:10973:118
+g.k.va@https://www.youtube.com/s/player/3cd2d050/player_ias.vflset/pt_BR/base.js:9866:197
+g.k.va@https://www.youtube.com/s/player/3cd2d050/player_ias.vflset/pt_BR/base.js:10000:41
+g.k.eP@https://www.youtube.com/s/player/3cd2d050/player_ias.vflset/pt_BR/base.js:11883:27
+g.k.va@https://www.youtube.com/s/player/3cd2d050/player_ias.vflset/pt_BR/base.js:8265:291
+g.MG.prototype.va@https://www.youtube.com/s/player/3cd2d050/player_ias.vflset/pt_BR/base.js:8712:72
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/3cd2d050/player_ias.vflset/pt_BR/base.js:11583:75
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/3cd2d050/player_ias.vflset/pt_BR/base.js:9795:62
+aS/a.state.j[b]@https://www.youtube.com/s/player/3cd2d050/player_ias.vflset/pt_BR/base.js:4298:53
+nx/<@https://www.youtube.com/s/player/3cd2d050/www-embed-player.vflset/www-embed-player.js:1819:106
+zx@https://www.youtube.com/s/player/3cd2d050/www-embed-player.vflset/www-embed-player.js:1855:46
+Dx<@https://www.youtube.com/s/player/3cd2d050/www-embed-player.vflset/www-embed-player.js:1862:183
+Ik/<@https://www.youtube.com/s/player/3cd2d050/www-embed-player.vflset/www-embed-player.js:842:63
+
+JavaScript warning: https://www.google.com/js/th/xjGJsWQcw7a75uMOZzli3G6NfqTxNtUGx8TIPKXR2T4.js line 2 > eval line 1142 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.error: ({})
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript warning: https://addons.mozilla.org/static-frontend/amo-b179e7cb595e0926f4cf.js, line 7: Script terminated by timeout at:
+eo/<@https://addons.mozilla.org/static-frontend/amo-b179e7cb595e0926f4cf.js:7:5052
+t@https://addons.mozilla.org/static-frontend/amo-b179e7cb595e0926f4cf.js:7:4912
+
+1692047630356	Marionette	INFO	Stopped listening on port 63334
+Dynamically enable window occlusion 1
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.google.com/js/th/xjGJsWQcw7a75uMOZzli3G6NfqTxNtUGx8TIPKXR2T4.js line 2 > eval line 2791 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.google.com/js/th/xjGJsWQcw7a75uMOZzli3G6NfqTxNtUGx8TIPKXR2T4.js line 2 > eval line 4282 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/embed/EdEjqLqTzxc line 815 > injectedScript line 2 > eval line 1562 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/xjGJsWQcw7a75uMOZzli3G6NfqTxNtUGx8TIPKXR2T4.js line 2 > eval line 7366 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/xjGJsWQcw7a75uMOZzli3G6NfqTxNtUGx8TIPKXR2T4.js line 2 > eval line 711 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 28464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13824, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693253492611	geckodriver	INFO	Listening on 127.0.0.1:55246
+1693253495680	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55247" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cotoq\\AppData\\Local\\Temp\\rust_mozprofileQ38JNU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693253495948	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693253496038	Marionette	INFO	Listening on port 55255
+WebDriver BiDi listening on ws://127.0.0.1:55247
+Read port: 55255
+1693253496242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55247/devtools/browser/47c6cd99-de64-463f-8855-d91992565733
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 597))
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://addons.mozilla.org."
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-GM1Q704QCN, line 455: Script terminated by timeout at:
+aa.mh@https://www.googletagmanager.com/gtag/js?id=G-GM1Q704QCN:455:42
+get@https://www.googletagmanager.com/gtag/js?id=G-GM1Q704QCN:453:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-GM1Q704QCN:453:87
+aa.uk/c/<@https://www.googletagmanager.com/gtag/js?id=G-GM1Q704QCN:453:412
+
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693253563451	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1693253563451	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/main.813dfefa.js, line 1: Script terminated by timeout at:
+45907/c/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web/main.813dfefa.js:1:2178244
+
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://addons.mozilla.org/static-frontend/amo-b179e7cb595e0926f4cf.js, line 7: Script terminated by timeout at:
+eo/<@https://addons.mozilla.org/static-frontend/amo-b179e7cb595e0926f4cf.js:7:5052
+t@https://addons.mozilla.org/static-frontend/amo-b179e7cb595e0926f4cf.js:7:4912
+
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693253722091	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: moz-extension://06c4d07f-83f1-43f3-b322-6ac4a6a71322/libraries/tinytoast.js, line 5: TypeError: s is undefined
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.youtube.com/s/player/c153b631/www-embed-player.vflset/www-embed-player.js, line 862: Script terminated by timeout at:
+bl@https://www.youtube.com/s/player/c153b631/www-embed-player.vflset/www-embed-player.js:862:22
+S@https://www.youtube.com/s/player/c153b631/www-embed-player.vflset/www-embed-player.js:860:133
+Ix<@https://www.youtube.com/s/player/c153b631/www-embed-player.vflset/www-embed-player.js:1866:98
+Nk/<@https://www.youtube.com/s/player/c153b631/www-embed-player.vflset/www-embed-player.js:844:63
+
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1693254057770	Marionette	INFO	Stopped listening on port 55255
+Dynamically enable window occlusion 1
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.google.com/js/th/KDVvO9GjIfwsimPSyouGCiRo4iCKU6sA3ozlySOQvk8.js line 2 > eval line 7444 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/KDVvO9GjIfwsimPSyouGCiRo4iCKU6sA3ozlySOQvk8.js line 2 > eval line 886 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/KDVvO9GjIfwsimPSyouGCiRo4iCKU6sA3ozlySOQvk8.js line 2 > eval line 2379 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/KDVvO9GjIfwsimPSyouGCiRo4iCKU6sA3ozlySOQvk8.js line 2 > eval line 123 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/KDVvO9GjIfwsimPSyouGCiRo4iCKU6sA3ozlySOQvk8.js line 2 > eval line 1713 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 13464, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 31952, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1694569303382	geckodriver	INFO	Listening on 127.0.0.1:51043
+1694569306453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51044" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cotoq\\AppData\\Local\\Temp\\rust_mozprofileqULuAL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694569306758	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694569306854	Marionette	INFO	Listening on port 51052
+WebDriver BiDi listening on ws://127.0.0.1:51044
+Read port: 51052
+1694569307049	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51044/devtools/browser/febb8ed5-7255-4a9a-b008-52dedad61854
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js, line 1: Script terminated by timeout at:
+_/e/<@https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js:1:2463369
+
+JavaScript warning: https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js, line 7: Script terminated by timeout at:
+a@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7700
+bo/</<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7788
+eo/<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:5042
+t@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:4912
+
+1694569359919	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: moz-extension://a3e699cd-c3d9-47a4-9f6d-9fcc4571c1ac/libraries/tinytoast.js, line 5: TypeError: s is undefined
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://www.youtube.com/s/player/de91d1cf/www-embed-player.vflset/www-embed-player.js, line 859: Script terminated by timeout at:
+S@https://www.youtube.com/s/player/de91d1cf/www-embed-player.vflset/www-embed-player.js:859:131
+qx<@https://www.youtube.com/s/player/de91d1cf/www-embed-player.vflset/www-embed-player.js:1846:98
+Mk/<@https://www.youtube.com/s/player/de91d1cf/www-embed-player.vflset/www-embed-player.js:843:63
+
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: uncaught exception: Could not authenticate you.
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+1694569476128	geckodriver	INFO	Listening on 127.0.0.1:51149
+1694569479186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51152" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cotoq\\AppData\\Local\\Temp\\rust_mozprofileWqVzig"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694569479520	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694569479627	Marionette	INFO	Listening on port 51163
+Read port: 51163
+WebDriver BiDi listening on ws://127.0.0.1:51152
+1694569479697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51152/devtools/browser/0145ca26-783c-44bd-99a5-7d48854bccfe
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js, line 1: Script terminated by timeout at:
+_/e/<@https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js:1:2463369
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-B9CY1C9VBC, line 161: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-B9CY1C9VBC:161:51
+Cz@https://www.googletagmanager.com/gtag/js?id=G-B9CY1C9VBC:459:134
+Dz/<@https://www.googletagmanager.com/gtag/js?id=G-B9CY1C9VBC:459:111
+
+1694569516912	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 1549: TypeError: shadowRoot is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 1549: TypeError: shadowRoot is null
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 1549: TypeError: shadowRoot is null
+JavaScript warning: https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js, line 843: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js:843:47
+
+JavaScript warning: https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js, line 843: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js:843:47
+
+console.error: ({})
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: uncaught exception: Could not authenticate you.
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+1694569569587	geckodriver	INFO	Listening on 127.0.0.1:51261
+1694569572665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51262" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cotoq\\AppData\\Local\\Temp\\rust_mozprofilehsVHQJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694569572919	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694569573006	Marionette	INFO	Listening on port 51269
+WebDriver BiDi listening on ws://127.0.0.1:51262
+Read port: 51269
+1694569573175	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51262/devtools/browser/886731b6-778c-47ba-9197-5af925d2bb47
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js, line 1: Script terminated by timeout at:
+_/e/<@https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js:1:2463369
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js, line 1: Script terminated by timeout at:
+_/e/<@https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js:1:2463369
+
+JavaScript warning: https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js, line 7: Script terminated by timeout at:
+a@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7700
+bo/</<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7788
+eo/<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:5042
+t@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:4912
+
+console.error: ({})
+JavaScript error: resource://gre/modules/amManager.sys.mjs, line 251: NS_ERROR_NOT_INITIALIZED
+JavaScript warning: https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js, line 843: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js:843:47
+
+console.error: ({})
+1694569689459	Marionette	INFO	Stopped listening on port 51269
+Dynamically enable window occlusion 1
+1694569691810	geckodriver	INFO	Listening on 127.0.0.1:51403
+1694569694900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51404" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cotoq\\AppData\\Local\\Temp\\rust_mozprofileLkzhKQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694569695167	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694569695259	Marionette	INFO	Listening on port 51411
+WebDriver BiDi listening on ws://127.0.0.1:51404
+Read port: 51411
+1694569695430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51404/devtools/browser/d2465bbd-b5cb-4e6c-b2d0-2a0dca07e7d1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js, line 1: Script terminated by timeout at:
+_/e/<@https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js:1:2463369
+
+JavaScript warning: https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js, line 7: Script terminated by timeout at:
+a@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7700
+bo/</<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7788
+eo/<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:5042
+t@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:4912
+
+1694569748576	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: moz-extension://62456647-99cd-43ef-97e1-5cdffc088190/libraries/tinytoast.js, line 5: TypeError: s is undefined
+console.error: ({})
+JavaScript warning: https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js, line 843: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js:843:47
+
+console.error: ({})
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: uncaught exception: Could not authenticate you.
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+1694569785813	Marionette	INFO	Stopped listening on port 51411
+Dynamically enable window occlusion 1
+1694569805304	geckodriver	INFO	Listening on 127.0.0.1:51509
+1694569808356	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51510" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cotoq\\AppData\\Local\\Temp\\rust_mozprofile3OiluG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694569808610	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694569808692	Marionette	INFO	Listening on port 51517
+WebDriver BiDi listening on ws://127.0.0.1:51510
+Read port: 51517
+1694569808857	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51510/devtools/browser/e55ba15d-ee19-4040-9266-f596e1964d7d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlaye.17fdaa5a.js, line 1: Script terminated by timeout at:
+S@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlaye.17fdaa5a.js:1:771
+_/b/<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlaye.17fdaa5a.js:1:599
+_/r/_</</e._unsubscribe<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.VideoPlayerDefaultUI~loaders.video.VideoPlaye.17fdaa5a.js:1:2354
+_/e/</a<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.ae73fd9a.js:1:100006
+m@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.75376d0a.js:82:10056
+_/n/</</<@https://abs.twimg.com/responsive-web/client-web-legacy/vendor.75376d0a.js:82:8281
+_/t.default/</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.ae73fd9a.js:1:2501
+_/Rr</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.ae73fd9a.js:1:90848
+_/Rr</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.ae73fd9a.js:1:89330
+_/Rr</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.ae73fd9a.js:1:89073
+_/Rr</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.ae73fd9a.js:1:87440
+_/Rr</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.ae73fd9a.js:1:87065
+_/Rr</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.ae73fd9a.js:1:86773
+_/Rr</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.ae73fd9a.js:1:86547
+_/Rr</</<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.ae73fd9a.js:1:86180
+value@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.ae73fd9a.js:1:60577
+_/e/<@https://abs.twimg.com/responsive-web/client-web-legacy/shared~bundle.TwitterArticles~bundle.ComposeMedia~loaders.video.PlayerBase~loader.MediaPreviewVideoPlayer~loa.ae73fd9a.js:1:32871
+
+JavaScript warning: https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js, line 7: Script terminated by timeout at:
+a@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7700
+bo/</<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7788
+eo/<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:5042
+t@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:4912
+
+1694569839148	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: moz-extension://fbece498-a1c4-4003-8919-122cdbcfd90b/libraries/tinytoast.js, line 5: TypeError: s is undefined
+console.error: ({})
+JavaScript warning: https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js, line 843: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js:843:47
+
+console.error: ({})
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: uncaught exception: Could not authenticate you.
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: uncaught exception: Could not authenticate you.
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: uncaught exception: Could not authenticate you.
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+console.error: ({})
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js, line 1: Script terminated by timeout at:
+_/e/<@https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js:1:2463369
+
+1694569912725	Marionette	INFO	Stopped listening on port 51517
+Dynamically enable window occlusion 1
+1694569916857	geckodriver	INFO	Listening on 127.0.0.1:51623
+1694569919899	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51624" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cotoq\\AppData\\Local\\Temp\\rust_mozprofilegnDkIp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694569920156	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694569920238	Marionette	INFO	Listening on port 51631
+WebDriver BiDi listening on ws://127.0.0.1:51624
+Read port: 51631
+1694569920404	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51624/devtools/browser/844f2bd3-1bb1-4353-bbf9-cf7a521b3333
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js, line 1: Script terminated by timeout at:
+_/e/<@https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js:1:2463369
+
+JavaScript warning: https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js, line 7: Script terminated by timeout at:
+a@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7700
+bo/</<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7788
+eo/<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:5042
+t@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:4912
+
+1694569974786	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: moz-extension://8e988614-0a34-41a3-b22b-14f6301bef63/libraries/tinytoast.js, line 5: TypeError: s is undefined
+console.error: ({})
+JavaScript warning: https://www.youtube.com/s/player/de91d1cf/www-embed-player.vflset/www-embed-player.js, line 843: Script terminated by timeout at:
+Mk/<@https://www.youtube.com/s/player/de91d1cf/www-embed-player.vflset/www-embed-player.js:843:47
+
+console.error: ({})
+1694570037363	Marionette	INFO	Stopped listening on port 51631
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.google.com/js/th/L_VXeMsvUWvqIVWyYZ0MwBrIHX7eOw577PffvJy4mPo.js line 2 > eval line 2750 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/L_VXeMsvUWvqIVWyYZ0MwBrIHX7eOw577PffvJy4mPo.js line 2 > eval line 4695 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/L_VXeMsvUWvqIVWyYZ0MwBrIHX7eOw577PffvJy4mPo.js line 2 > eval line 6645 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/L_VXeMsvUWvqIVWyYZ0MwBrIHX7eOw577PffvJy4mPo.js line 2 > eval line 611 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1694570142615	geckodriver	INFO	Listening on 127.0.0.1:51801
+1694570145668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51802" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cotoq\\AppData\\Local\\Temp\\rust_mozprofileT5NIDn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694570145940	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694570146030	Marionette	INFO	Listening on port 51809
+WebDriver BiDi listening on ws://127.0.0.1:51802
+Read port: 51809
+1694570146205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51802/devtools/browser/494e97e3-ad97-421a-baa5-35ca2f689921
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js, line 1: Script terminated by timeout at:
+_/e/<@https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js:1:2463369
+
+JavaScript warning: https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js, line 7: Script terminated by timeout at:
+a@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7700
+bo/</<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7788
+eo/<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:5042
+t@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:4912
+
+1694570180593	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: moz-extension://fe35ee54-a453-456c-9b6c-859d952aeb1b/libraries/tinytoast.js, line 5: TypeError: s is undefined
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.error: ({})
+JavaScript warning: https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js, line 843: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js:843:47
+
+console.error: ({})
+1694570232992	Marionette	INFO	Stopped listening on port 51809
+Dynamically enable window occlusion 1
+1694570234470	geckodriver	INFO	Listening on 127.0.0.1:51910
+1694570237549	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51911" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cotoq\\AppData\\Local\\Temp\\rust_mozprofileFi3hwd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694570237799	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694570237883	Marionette	INFO	Listening on port 51918
+WebDriver BiDi listening on ws://127.0.0.1:51911
+Read port: 51918
+1694570238046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51911/devtools/browser/4207cdb4-4daa-4692-9d7f-5613369fd845
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js, line 1: Script terminated by timeout at:
+_/e/<@https://abs.twimg.com/responsive-web/client-web-legacy/main.6b8cdcba.js:1:2463369
+
+JavaScript warning: https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/ed=1/dg=2/rs=ACT90oETS1wzUO_JdSwXvWhQtyjzbBxZJA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:OXTqFb;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl, line 475: Script terminated by timeout at:
+_.hm@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/ed=1/dg=2/rs=ACT90oETS1wzUO_JdSwXvWhQtyjzbBxZJA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:OXTqFb;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:475:554
+_.vd@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/ed=1/dg=2/rs=ACT90oETS1wzUO_JdSwXvWhQtyjzbBxZJA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:OXTqFb;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:478:27
+Qia@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/ed=1/dg=2/rs=ACT90oETS1wzUO_JdSwXvWhQtyjzbBxZJA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:OXTqFb;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:173:227
+_.Yia@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/ed=1/dg=2/rs=ACT90oETS1wzUO_JdSwXvWhQtyjzbBxZJA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:OXTqFb;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:176:302
+_.$ia@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/ed=1/dg=2/rs=ACT90oETS1wzUO_JdSwXvWhQtyjzbBxZJA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:OXTqFb;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:177:50
+_.l.n_@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/ed=1/dg=2/rs=ACT90oETS1wzUO_JdSwXvWhQtyjzbBxZJA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:OXTqFb;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:2370:92
+_.l.xs@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/ed=1/dg=2/rs=ACT90oETS1wzUO_JdSwXvWhQtyjzbBxZJA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:OXTqFb;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:1375:283
+_.sUc.prototype.iTb@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/ck=xjs.s.zJxr9_kGIoI.L.F4.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/exm=SNUn3,attn,cEt90b,cdos,cr,csi,d,dtl0hd,eHDfl,gwc,hsm,jsa,mb4ZUb,qddgKe,sTsDMc/excm=A9AtR,ABxRVc,AD6AIb,BVlhmd,D1J6He,DwnPgd,EKYTZ,EuA5Zc,FmnE6b,FuQWyc,GLGZs,GRJ32c,Ghqpae,JxE93,KzZUob,MRb7nf,Mxvwsd,NmR9jd,NsEUGe,Oa7Qpb,Ok4XMd,PE728b,PoJj8d,SKZSKc,SLDaee,SfrWY,SiRWre,T3q8Wd,TO0csb,U3Ovcc,U6nlJe,VZLyBe,Wx0Z2d,WxJ6g,XHo6qe,XTkmZd,Xk0c,XkocRe,Yltq7c,ZrXR8b,Zudxcb,aQFQFe,axgBDd,bXyZdf,eTv59e,f1YgBd,f26on,fNMhz,hfJ9hb,hj5Zu,iAQA6,j0qO9b,jkRPje,kOSi0d,m6b2Pe,mL4hG,pMwOEe,pPanAd,pQk1fc,pqUxUc,qv9Nz,rL2AR,tlA71,tzTB5,vJPFse,vPi79c,vbjdXc,wKa2Bd,y25qZb,yChgtb,zoFt6e/ed=1/dg=2/rs=ACT90oH252wtt4u8BXhf2-26IBL_Cu91LA/ee=AfeaP:TkrAjf;BMxAGc:E5bFse;BgS6mb:fidj5d;BjwMce:cXX2Wb;CxXAWb:YyRLvc;DULqB:RKfG5c;DpcR3d:zL72xf;EABSZ:MXZt9d;ESrPQc:mNTJvc;EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;Erl4fe:FloWmf;F9mqte:UoRcbe;Fmv9Nc:O1Tzwc;G0KhTb:LIaoZ;G6wU6e:hezEbd;GleZL:J1A7Od;IoGlCf:b5lhvb;JXS8fb:Qj0suc;JsbNhc:Xd8iUd;K8vqCc:MyIcle;KQzWid:mB4wNe;KcokUb:KiuZBf;KpRAue:Tia57b;LBgRLc:SdcwHb,XVMNvd;LEikZe:byfTOb,lsjVmc;LsNahb:ucGLNb;Me32dd:MEeYgc;NPKaK:SdcwHb;NSEoX:lazG7b;Np8Qkd:Dpx6qc;Nyt6ic:jn2sGd;Oj465e:KG2eXe;Pjplud:EEDORb,PoEs9b;PqHfGe:im2cZe;Q1Ow7b:x5CSu;QGR0gd:Mlhmy;R2kc8b:ALJqWb;R4IIIb:QWfeKf;R9Ulx:CR7Ufe;SLtqO:Kh1xYe;SMDL4c:fTfGO,vjQg0b;SNUn3:ZwDk9d,x8cHvb;TxfV6d:YORN0b;U96pRd:FsR04;UDrY1c:eps46d;UVmjEd:EesRsb;UyG7Kb:wQd0G;V2HTTe:RolTY;VGRfx:VFqbr;VN6jIc:ddQyuf;VOcgDe:YquhTb;VxQ32b:k0XsBb;WCEKNd:I46Hvd;WDGyFe:jcVOxd;Wfmdue:g3MJlb;YV5bee:IvPZ6d;ZWEUA:afR4Cf;ZrFutb:W4Cdfc;a56pNe:JEfCwb;aAJE9c:WHW6Ef;aZ61od:arTwJ;bFZ6gf:RsDQqe;bcPXSc:gSZLJb;cEt90b:ws9Tlc;cFTWae:gT8qnd;dIoSBb:ZgGg9b;dLlj2:Qqt3Gf;daB6be:lMxGPd;dtl0hd:lLQWFe;eBAeSb:Ck63tb;eBZ5Nd:audvde;eHDfl:ofjVkb;g8nkx:U4MzKc;gaub4:TN6bMe;gtVSi:ekUOYd;hK67qb:QWEO5b;hjRo6e:F62sG;iFQyKf:QIhFr,vfuNJf;imqimf:jKGL2e;io8t5d:sgY6Zb;jY0zg:Q6tNgc;kCQyJ:ueyPK;kMFpHd:OTA3Ae;kY7VAf:d91TEb;kbAm9d:MkHyGd;l8Azde:j4Ca9b;lkq0A:JyBE3e;lzgfYb:PI40bd;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;oSUNyd:fTfGO,vjQg0b;oUlnpc:RagDlc;okUaUd:wItadb;pNsl2d:j9Yuyc;pXdRYb:JKoKVe;pj82le:mg5CW;qGV2uc:HHi04c;qaS3gd:yiLg6e;qavrXe:mYbt1d,zQzcXe;qddgKe:d7YSfd,x4FYXe;rQSrae:C6D5Fc;sP4Vbe:VwDzFe;sTsDMc:kHVSUb;tH4IIe:Ymry6;tosKvd:ZCqP3;trZL0b:qY8PFe;uY49fb:COQbmf;uknmt:GkPrzb;uuQkY:u2V3ud;vfVwPd:OXTqFb;w3bZCb:ZPGaIb;w9w86d:dt4g2b;wQlYve:aLUfP;wR5FRb:O1Gjze,TtcOte;wV5Pjc:L8KGxe;whEZac:F4AmNb;xBbsrc:NEW1Qc;xbe2wc:wbTLEd;yGxLoc:FmAr0c;yxTchf:KUM7Z;z97YGf:oug9te;zOsCQe:Ko78Df/m=COQbmf,Eox39d,FmAr0c,GCSbhd,GElbSc,HYSCof,KG2eXe,LEikZe,M0hWhd,Mlhmy,OTA3Ae,PoEs9b,QKZgZd,Qj0suc,T1HOxc,U0aPgd,Wct42,Wo3n8,byfTOb,cSX9Xe,d5EhJe,fcDBE,kWgXee,lsjVmc,msmzHf,nPaQu,ovKuLd,pHXghd,sgY6Zb,tIj4fb,tboZfc,uxMpU?xjs=s1:1366:229
+_.wUc.prototype.If/<@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/ck=xjs.s.zJxr9_kGIoI.L.F4.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/exm=SNUn3,attn,cEt90b,cdos,cr,csi,d,dtl0hd,eHDfl,gwc,hsm,jsa,mb4ZUb,qddgKe,sTsDMc/excm=A9AtR,ABxRVc,AD6AIb,BVlhmd,D1J6He,DwnPgd,EKYTZ,EuA5Zc,FmnE6b,FuQWyc,GLGZs,GRJ32c,Ghqpae,JxE93,KzZUob,MRb7nf,Mxvwsd,NmR9jd,NsEUGe,Oa7Qpb,Ok4XMd,PE728b,PoJj8d,SKZSKc,SLDaee,SfrWY,SiRWre,T3q8Wd,TO0csb,U3Ovcc,U6nlJe,VZLyBe,Wx0Z2d,WxJ6g,XHo6qe,XTkmZd,Xk0c,XkocRe,Yltq7c,ZrXR8b,Zudxcb,aQFQFe,axgBDd,bXyZdf,eTv59e,f1YgBd,f26on,fNMhz,hfJ9hb,hj5Zu,iAQA6,j0qO9b,jkRPje,kOSi0d,m6b2Pe,mL4hG,pMwOEe,pPanAd,pQk1fc,pqUxUc,qv9Nz,rL2AR,tlA71,tzTB5,vJPFse,vPi79c,vbjdXc,wKa2Bd,y25qZb,yChgtb,zoFt6e/ed=1/dg=2/rs=ACT90oH252wtt4u8BXhf2-26IBL_Cu91LA/ee=AfeaP:TkrAjf;BMxAGc:E5bFse;BgS6mb:fidj5d;BjwMce:cXX2Wb;CxXAWb:YyRLvc;DULqB:RKfG5c;DpcR3d:zL72xf;EABSZ:MXZt9d;ESrPQc:mNTJvc;EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;Erl4fe:FloWmf;F9mqte:UoRcbe;Fmv9Nc:O1Tzwc;G0KhTb:LIaoZ;G6wU6e:hezEbd;GleZL:J1A7Od;IoGlCf:b5lhvb;JXS8fb:Qj0suc;JsbNhc:Xd8iUd;K8vqCc:MyIcle;KQzWid:mB4wNe;KcokUb:KiuZBf;KpRAue:Tia57b;LBgRLc:SdcwHb,XVMNvd;LEikZe:byfTOb,lsjVmc;LsNahb:ucGLNb;Me32dd:MEeYgc;NPKaK:SdcwHb;NSEoX:lazG7b;Np8Qkd:Dpx6qc;Nyt6ic:jn2sGd;Oj465e:KG2eXe;Pjplud:EEDORb,PoEs9b;PqHfGe:im2cZe;Q1Ow7b:x5CSu;QGR0gd:Mlhmy;R2kc8b:ALJqWb;R4IIIb:QWfeKf;R9Ulx:CR7Ufe;SLtqO:Kh1xYe;SMDL4c:fTfGO,vjQg0b;SNUn3:ZwDk9d,x8cHvb;TxfV6d:YORN0b;U96pRd:FsR04;UDrY1c:eps46d;UVmjEd:EesRsb;UyG7Kb:wQd0G;V2HTTe:RolTY;VGRfx:VFqbr;VN6jIc:ddQyuf;VOcgDe:YquhTb;VxQ32b:k0XsBb;WCEKNd:I46Hvd;WDGyFe:jcVOxd;Wfmdue:g3MJlb;YV5bee:IvPZ6d;ZWEUA:afR4Cf;ZrFutb:W4Cdfc;a56pNe:JEfCwb;aAJE9c:WHW6Ef;aZ61od:arTwJ;bFZ6gf:RsDQqe;bcPXSc:gSZLJb;cEt90b:ws9Tlc;cFTWae:gT8qnd;dIoSBb:ZgGg9b;dLlj2:Qqt3Gf;daB6be:lMxGPd;dtl0hd:lLQWFe;eBAeSb:Ck63tb;eBZ5Nd:audvde;eHDfl:ofjVkb;g8nkx:U4MzKc;gaub4:TN6bMe;gtVSi:ekUOYd;hK67qb:QWEO5b;hjRo6e:F62sG;iFQyKf:QIhFr,vfuNJf;imqimf:jKGL2e;io8t5d:sgY6Zb;jY0zg:Q6tNgc;kCQyJ:ueyPK;kMFpHd:OTA3Ae;kY7VAf:d91TEb;kbAm9d:MkHyGd;l8Azde:j4Ca9b;lkq0A:JyBE3e;lzgfYb:PI40bd;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;oSUNyd:fTfGO,vjQg0b;oUlnpc:RagDlc;okUaUd:wItadb;pNsl2d:j9Yuyc;pXdRYb:JKoKVe;pj82le:mg5CW;qGV2uc:HHi04c;qaS3gd:yiLg6e;qavrXe:mYbt1d,zQzcXe;qddgKe:d7YSfd,x4FYXe;rQSrae:C6D5Fc;sP4Vbe:VwDzFe;sTsDMc:kHVSUb;tH4IIe:Ymry6;tosKvd:ZCqP3;trZL0b:qY8PFe;uY49fb:COQbmf;uknmt:GkPrzb;uuQkY:u2V3ud;vfVwPd:OXTqFb;w3bZCb:ZPGaIb;w9w86d:dt4g2b;wQlYve:aLUfP;wR5FRb:O1Gjze,TtcOte;wV5Pjc:L8KGxe;whEZac:F4AmNb;xBbsrc:NEW1Qc;xbe2wc:wbTLEd;yGxLoc:FmAr0c;yxTchf:KUM7Z;z97YGf:oug9te;zOsCQe:Ko78Df/m=COQbmf,Eox39d,FmAr0c,GCSbhd,GElbSc,HYSCof,KG2eXe,LEikZe,M0hWhd,Mlhmy,OTA3Ae,PoEs9b,QKZgZd,Qj0suc,T1HOxc,U0aPgd,Wct42,Wo3n8,byfTOb,cSX9Xe,d5EhJe,fcDBE,kWgXee,lsjVmc,msmzHf,nPaQu,ovKuLd,pHXghd,sgY6Zb,tIj4fb,tboZfc,uxMpU?xjs=s1:1363:224
+mUc@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/ck=xjs.s.zJxr9_kGIoI.L.F4.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/exm=SNUn3,attn,cEt90b,cdos,cr,csi,d,dtl0hd,eHDfl,gwc,hsm,jsa,mb4ZUb,qddgKe,sTsDMc/excm=A9AtR,ABxRVc,AD6AIb,BVlhmd,D1J6He,DwnPgd,EKYTZ,EuA5Zc,FmnE6b,FuQWyc,GLGZs,GRJ32c,Ghqpae,JxE93,KzZUob,MRb7nf,Mxvwsd,NmR9jd,NsEUGe,Oa7Qpb,Ok4XMd,PE728b,PoJj8d,SKZSKc,SLDaee,SfrWY,SiRWre,T3q8Wd,TO0csb,U3Ovcc,U6nlJe,VZLyBe,Wx0Z2d,WxJ6g,XHo6qe,XTkmZd,Xk0c,XkocRe,Yltq7c,ZrXR8b,Zudxcb,aQFQFe,axgBDd,bXyZdf,eTv59e,f1YgBd,f26on,fNMhz,hfJ9hb,hj5Zu,iAQA6,j0qO9b,jkRPje,kOSi0d,m6b2Pe,mL4hG,pMwOEe,pPanAd,pQk1fc,pqUxUc,qv9Nz,rL2AR,tlA71,tzTB5,vJPFse,vPi79c,vbjdXc,wKa2Bd,y25qZb,yChgtb,zoFt6e/ed=1/dg=2/rs=ACT90oH252wtt4u8BXhf2-26IBL_Cu91LA/ee=AfeaP:TkrAjf;BMxAGc:E5bFse;BgS6mb:fidj5d;BjwMce:cXX2Wb;CxXAWb:YyRLvc;DULqB:RKfG5c;DpcR3d:zL72xf;EABSZ:MXZt9d;ESrPQc:mNTJvc;EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;Erl4fe:FloWmf;F9mqte:UoRcbe;Fmv9Nc:O1Tzwc;G0KhTb:LIaoZ;G6wU6e:hezEbd;GleZL:J1A7Od;IoGlCf:b5lhvb;JXS8fb:Qj0suc;JsbNhc:Xd8iUd;K8vqCc:MyIcle;KQzWid:mB4wNe;KcokUb:KiuZBf;KpRAue:Tia57b;LBgRLc:SdcwHb,XVMNvd;LEikZe:byfTOb,lsjVmc;LsNahb:ucGLNb;Me32dd:MEeYgc;NPKaK:SdcwHb;NSEoX:lazG7b;Np8Qkd:Dpx6qc;Nyt6ic:jn2sGd;Oj465e:KG2eXe;Pjplud:EEDORb,PoEs9b;PqHfGe:im2cZe;Q1Ow7b:x5CSu;QGR0gd:Mlhmy;R2kc8b:ALJqWb;R4IIIb:QWfeKf;R9Ulx:CR7Ufe;SLtqO:Kh1xYe;SMDL4c:fTfGO,vjQg0b;SNUn3:ZwDk9d,x8cHvb;TxfV6d:YORN0b;U96pRd:FsR04;UDrY1c:eps46d;UVmjEd:EesRsb;UyG7Kb:wQd0G;V2HTTe:RolTY;VGRfx:VFqbr;VN6jIc:ddQyuf;VOcgDe:YquhTb;VxQ32b:k0XsBb;WCEKNd:I46Hvd;WDGyFe:jcVOxd;Wfmdue:g3MJlb;YV5bee:IvPZ6d;ZWEUA:afR4Cf;ZrFutb:W4Cdfc;a56pNe:JEfCwb;aAJE9c:WHW6Ef;aZ61od:arTwJ;bFZ6gf:RsDQqe;bcPXSc:gSZLJb;cEt90b:ws9Tlc;cFTWae:gT8qnd;dIoSBb:ZgGg9b;dLlj2:Qqt3Gf;daB6be:lMxGPd;dtl0hd:lLQWFe;eBAeSb:Ck63tb;eBZ5Nd:audvde;eHDfl:ofjVkb;g8nkx:U4MzKc;gaub4:TN6bMe;gtVSi:ekUOYd;hK67qb:QWEO5b;hjRo6e:F62sG;iFQyKf:QIhFr,vfuNJf;imqimf:jKGL2e;io8t5d:sgY6Zb;jY0zg:Q6tNgc;kCQyJ:ueyPK;kMFpHd:OTA3Ae;kY7VAf:d91TEb;kbAm9d:MkHyGd;l8Azde:j4Ca9b;lkq0A:JyBE3e;lzgfYb:PI40bd;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;oSUNyd:fTfGO,vjQg0b;oUlnpc:RagDlc;okUaUd:wItadb;pNsl2d:j9Yuyc;pXdRYb:JKoKVe;pj82le:mg5CW;qGV2uc:HHi04c;qaS3gd:yiLg6e;qavrXe:mYbt1d,zQzcXe;qddgKe:d7YSfd,x4FYXe;rQSrae:C6D5Fc;sP4Vbe:VwDzFe;sTsDMc:kHVSUb;tH4IIe:Ymry6;tosKvd:ZCqP3;trZL0b:qY8PFe;uY49fb:COQbmf;uknmt:GkPrzb;uuQkY:u2V3ud;vfVwPd:OXTqFb;w3bZCb:ZPGaIb;w9w86d:dt4g2b;wQlYve:aLUfP;wR5FRb:O1Gjze,TtcOte;wV5Pjc:L8KGxe;whEZac:F4AmNb;xBbsrc:NEW1Qc;xbe2wc:wbTLEd;yGxLoc:FmAr0c;yxTchf:KUM7Z;z97YGf:oug9te;zOsCQe:Ko78Df/m=COQbmf,Eox39d,FmAr0c,GCSbhd,GElbSc,HYSCof,KG2eXe,LEikZe,M0hWhd,Mlhmy,OTA3Ae,PoEs9b,QKZgZd,Qj0suc,T1HOxc,U0aPgd,Wct42,Wo3n8,byfTOb,cSX9Xe,d5EhJe,fcDBE,kWgXee,lsjVmc,msmzHf,nPaQu,ovKuLd,pHXghd,sgY6Zb,tIj4fb,tboZfc,uxMpU?xjs=s1:1360:87
+_.wUc.prototype.If@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/ck=xjs.s.zJxr9_kGIoI.L.F4.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/exm=SNUn3,attn,cEt90b,cdos,cr,csi,d,dtl0hd,eHDfl,gwc,hsm,jsa,mb4ZUb,qddgKe,sTsDMc/excm=A9AtR,ABxRVc,AD6AIb,BVlhmd,D1J6He,DwnPgd,EKYTZ,EuA5Zc,FmnE6b,FuQWyc,GLGZs,GRJ32c,Ghqpae,JxE93,KzZUob,MRb7nf,Mxvwsd,NmR9jd,NsEUGe,Oa7Qpb,Ok4XMd,PE728b,PoJj8d,SKZSKc,SLDaee,SfrWY,SiRWre,T3q8Wd,TO0csb,U3Ovcc,U6nlJe,VZLyBe,Wx0Z2d,WxJ6g,XHo6qe,XTkmZd,Xk0c,XkocRe,Yltq7c,ZrXR8b,Zudxcb,aQFQFe,axgBDd,bXyZdf,eTv59e,f1YgBd,f26on,fNMhz,hfJ9hb,hj5Zu,iAQA6,j0qO9b,jkRPje,kOSi0d,m6b2Pe,mL4hG,pMwOEe,pPanAd,pQk1fc,pqUxUc,qv9Nz,rL2AR,tlA71,tzTB5,vJPFse,vPi79c,vbjdXc,wKa2Bd,y25qZb,yChgtb,zoFt6e/ed=1/dg=2/rs=ACT90oH252wtt4u8BXhf2-26IBL_Cu91LA/ee=AfeaP:TkrAjf;BMxAGc:E5bFse;BgS6mb:fidj5d;BjwMce:cXX2Wb;CxXAWb:YyRLvc;DULqB:RKfG5c;DpcR3d:zL72xf;EABSZ:MXZt9d;ESrPQc:mNTJvc;EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;Erl4fe:FloWmf;F9mqte:UoRcbe;Fmv9Nc:O1Tzwc;G0KhTb:LIaoZ;G6wU6e:hezEbd;GleZL:J1A7Od;IoGlCf:b5lhvb;JXS8fb:Qj0suc;JsbNhc:Xd8iUd;K8vqCc:MyIcle;KQzWid:mB4wNe;KcokUb:KiuZBf;KpRAue:Tia57b;LBgRLc:SdcwHb,XVMNvd;LEikZe:byfTOb,lsjVmc;LsNahb:ucGLNb;Me32dd:MEeYgc;NPKaK:SdcwHb;NSEoX:lazG7b;Np8Qkd:Dpx6qc;Nyt6ic:jn2sGd;Oj465e:KG2eXe;Pjplud:EEDORb,PoEs9b;PqHfGe:im2cZe;Q1Ow7b:x5CSu;QGR0gd:Mlhmy;R2kc8b:ALJqWb;R4IIIb:QWfeKf;R9Ulx:CR7Ufe;SLtqO:Kh1xYe;SMDL4c:fTfGO,vjQg0b;SNUn3:ZwDk9d,x8cHvb;TxfV6d:YORN0b;U96pRd:FsR04;UDrY1c:eps46d;UVmjEd:EesRsb;UyG7Kb:wQd0G;V2HTTe:RolTY;VGRfx:VFqbr;VN6jIc:ddQyuf;VOcgDe:YquhTb;VxQ32b:k0XsBb;WCEKNd:I46Hvd;WDGyFe:jcVOxd;Wfmdue:g3MJlb;YV5bee:IvPZ6d;ZWEUA:afR4Cf;ZrFutb:W4Cdfc;a56pNe:JEfCwb;aAJE9c:WHW6Ef;aZ61od:arTwJ;bFZ6gf:RsDQqe;bcPXSc:gSZLJb;cEt90b:ws9Tlc;cFTWae:gT8qnd;dIoSBb:ZgGg9b;dLlj2:Qqt3Gf;daB6be:lMxGPd;dtl0hd:lLQWFe;eBAeSb:Ck63tb;eBZ5Nd:audvde;eHDfl:ofjVkb;g8nkx:U4MzKc;gaub4:TN6bMe;gtVSi:ekUOYd;hK67qb:QWEO5b;hjRo6e:F62sG;iFQyKf:QIhFr,vfuNJf;imqimf:jKGL2e;io8t5d:sgY6Zb;jY0zg:Q6tNgc;kCQyJ:ueyPK;kMFpHd:OTA3Ae;kY7VAf:d91TEb;kbAm9d:MkHyGd;l8Azde:j4Ca9b;lkq0A:JyBE3e;lzgfYb:PI40bd;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;oSUNyd:fTfGO,vjQg0b;oUlnpc:RagDlc;okUaUd:wItadb;pNsl2d:j9Yuyc;pXdRYb:JKoKVe;pj82le:mg5CW;qGV2uc:HHi04c;qaS3gd:yiLg6e;qavrXe:mYbt1d,zQzcXe;qddgKe:d7YSfd,x4FYXe;rQSrae:C6D5Fc;sP4Vbe:VwDzFe;sTsDMc:kHVSUb;tH4IIe:Ymry6;tosKvd:ZCqP3;trZL0b:qY8PFe;uY49fb:COQbmf;uknmt:GkPrzb;uuQkY:u2V3ud;vfVwPd:OXTqFb;w3bZCb:ZPGaIb;w9w86d:dt4g2b;wQlYve:aLUfP;wR5FRb:O1Gjze,TtcOte;wV5Pjc:L8KGxe;whEZac:F4AmNb;xBbsrc:NEW1Qc;xbe2wc:wbTLEd;yGxLoc:FmAr0c;yxTchf:KUM7Z;z97YGf:oug9te;zOsCQe:Ko78Df/m=COQbmf,Eox39d,FmAr0c,GCSbhd,GElbSc,HYSCof,KG2eXe,LEikZe,M0hWhd,Mlhmy,OTA3Ae,PoEs9b,QKZgZd,Qj0suc,T1HOxc,U0aPgd,Wct42,Wo3n8,byfTOb,cSX9Xe,d5EhJe,fcDBE,kWgXee,lsjVmc,msmzHf,nPaQu,ovKuLd,pHXghd,sgY6Zb,tIj4fb,tboZfc,uxMpU?xjs=s1:1364:19
+Z5r@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/ck=xjs.s.zJxr9_kGIoI.L.F4.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=0/dg=2/rs=ACT90oH252wtt4u8BXhf2-26IBL_Cu91LA/m=sy1lf,w4UyN,syrl,EbPKJf,LiBxPe,sy2vp,J9Q59e,a6Sgfb,TSZEqd?xjs=s3:36:186
+c6r/<@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/ck=xjs.s.zJxr9_kGIoI.L.F4.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=0/dg=2/rs=ACT90oH252wtt4u8BXhf2-26IBL_Cu91LA/m=sy1lf,w4UyN,syrl,EbPKJf,LiBxPe,sy2vp,J9Q59e,a6Sgfb,TSZEqd?xjs=s3:38:87
+Rta@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/ed=1/dg=2/rs=ACT90oETS1wzUO_JdSwXvWhQtyjzbBxZJA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:OXTqFb;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:420:292
+Ota@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/ed=1/dg=2/rs=ACT90oETS1wzUO_JdSwXvWhQtyjzbBxZJA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:OXTqFb;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:420:341
+b@https://www.google.com/xjs/_/js/k=xjs.s.pt_BR.qbbyyjEp9e8.O/am=ChAAAQIAAAAAAAAAAgCgAsIhgA0wAP_cBwAAIACAQlUEAQwABLz_RGIAABAAAmACiIM9AIASqoAdAAAAGPsBAAAAACBYAIwXAJoADoQARUAAAAAA5AHAeQDBwYQFAAAAAAAAAAAAEPAEweCA9FhAAAQAAAAAAAAAAABSyeTlAAIAYA/d=1/ed=1/dg=2/rs=ACT90oETS1wzUO_JdSwXvWhQtyjzbBxZJA/ee=cEt90b:ws9Tlc;qddgKe:x4FYXe,d7YSfd;yxTchf:KUM7Z;dtl0hd:lLQWFe;eHDfl:ofjVkb;qaS3gd:yiLg6e;nAFL3:NTMZac,s39S4;oGtAuc:sOXFj;iFQyKf:vfuNJf,QIhFr;SNUn3:ZwDk9d,x8cHvb;io8t5d:sgY6Zb;Oj465e:KG2eXe,KG2eXe;Erl4fe:FloWmf,FloWmf;JsbNhc:Xd8iUd;sP4Vbe:VwDzFe;kMFpHd:OTA3Ae;uY49fb:COQbmf;Pjplud:PoEs9b,EEDORb;QGR0gd:Mlhmy;a56pNe:JEfCwb;Me32dd:MEeYgc;wR5FRb:TtcOte,O1Gjze;pXdRYb:JKoKVe;dIoSBb:ZgGg9b;EmZ2Bf:zr1jrb;NSEoX:lazG7b;eBAeSb:Ck63tb;WCEKNd:I46Hvd;wV5Pjc:L8KGxe;EVNhjf:pw70Gc;sTsDMc:kHVSUb;wQlYve:aLUfP;zOsCQe:Ko78Df;KcokUb:KiuZBf;YV5bee:IvPZ6d;kbAm9d:MkHyGd;ZWEUA:afR4Cf;g8nkx:U4MzKc;lzgfYb:PI40bd;w9w86d:dt4g2b;GleZL:J1A7Od;bcPXSc:gSZLJb;JXS8fb:Qj0suc;IoGlCf:b5lhvb;VN6jIc:ddQyuf;vfVwPd:OXTqFb;ESrPQc:mNTJvc;qavrXe:zQzcXe,mYbt1d;pNsl2d:j9Yuyc;VGRfx:VFqbr;BjwMce:cXX2Wb;R9Ulx:CR7Ufe;kY7VAf:d91TEb;KpRAue:Tia57b;jY0zg:Q6tNgc;l8Azde:j4Ca9b;oSUNyd:fTfGO,fTfGO,vjQg0b;SMDL4c:fTfGO,vjQg0b;aZ61od:arTwJ;ZrFutb:W4Cdfc;K8vqCc:MyIcle;NPKaK:SdcwHb;LBgRLc:XVMNvd,SdcwHb;rQSrae:C6D5Fc;kCQyJ:ueyPK;KQzWid:mB4wNe;EABSZ:MXZt9d;TxfV6d:YORN0b;UDrY1c:eps46d;F9mqte:UoRcbe;Nyt6ic:jn2sGd;w3bZCb:ZPGaIb;G0KhTb:LIaoZ;aAJE9c:WHW6Ef;V2HTTe:RolTY;Wfmdue:g3MJlb;imqimf:jKGL2e;BgS6mb:fidj5d;UVmjEd:EesRsb;z97YGf:oug9te;AfeaP:TkrAjf;eBZ5Nd:audvde;CxXAWb:YyRLvc;SLtqO:Kh1xYe;tosKvd:ZCqP3;VOcgDe:YquhTb;uuQkY:u2V3ud;WDGyFe:jcVOxd;trZL0b:qY8PFe;VxQ32b:k0XsBb;DULqB:RKfG5c;Np8Qkd:Dpx6qc;cFTWae:gT8qnd;gaub4:TN6bMe;xBbsrc:NEW1Qc;DpcR3d:zL72xf;hjRo6e:F62sG;yGxLoc:FmAr0c;oUlnpc:RagDlc;R2kc8b:ALJqWb;pj82le:mg5CW;dLlj2:Qqt3Gf;qGV2uc:HHi04c;gtVSi:ekUOYd;UyG7Kb:wQd0G;LsNahb:ucGLNb;xbe2wc:wbTLEd;Q1Ow7b:x5CSu;bFZ6gf:RsDQqe;okUaUd:wItadb;G6wU6e:hezEbd;uknmt:GkPrzb;PqHfGe:im2cZe;Fmv9Nc:O1Tzwc;hK67qb:QWEO5b;BMxAGc:E5bFse;R4IIIb:QWfeKf;whEZac:F4AmNb;tH4IIe:Ymry6;lkq0A:JyBE3e;daB6be:lMxGPd;U96pRd:FsR04;LEikZe:byfTOb,lsjVmc/m=attn,cdos,cr,gwc,hsm,jsa,mb4ZUb,d,csi,cEt90b,SNUn3,qddgKe,sTsDMc,dtl0hd,eHDfl:416:49
+
+1694570263827	Marionette	INFO	Stopped listening on port 51918
+Dynamically enable window occlusion 1
+1694570268793	geckodriver	INFO	Listening on 127.0.0.1:51980
+1694570271845	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51981" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cotoq\\AppData\\Local\\Temp\\rust_mozprofileHIzNg0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694570272100	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694570272212	Marionette	INFO	Listening on port 51988
+WebDriver BiDi listening on ws://127.0.0.1:51981
+Read port: 51988
+1694570272402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51981/devtools/browser/fe21b87e-1eab-4009-b6ee-cae876e13a52
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+JavaScript warning: https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js, line 7: Script terminated by timeout at:
+a@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7700
+bo/</<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:7788
+eo/<@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:5042
+t@https://addons.mozilla.org/static-frontend/amo-252c24fdda3581ee6bf1.js:7:4912
+
+JavaScript warning: https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js, line 843: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js:843:47
+
+console.error: ({})
+JavaScript error: moz-extension://4a0f2d39-96ec-4432-ac4e-b4689d5bc527/layouts/search/script.js, line 281: TypeError: data is undefined
+JavaScript error: moz-extension://4a0f2d39-96ec-4432-ac4e-b4689d5bc527/layouts/search/script.js, line 281: TypeError: data is undefined
+JavaScript error: moz-extension://4a0f2d39-96ec-4432-ac4e-b4689d5bc527/layouts/search/script.js, line 281: TypeError: data is undefined
+JavaScript warning: https://www.youtube.com/s/player/7ee36b0e/player_ias.vflset/pt_BR/base.js, line 358: Script terminated by timeout at:
+He@https://www.youtube.com/s/player/7ee36b0e/player_ias.vflset/pt_BR/base.js:358:44
+ima@https://www.youtube.com/s/player/7ee36b0e/player_ias.vflset/pt_BR/base.js:1891:42
+pC@https://www.youtube.com/s/player/7ee36b0e/player_ias.vflset/pt_BR/base.js:1879:153
+rC@https://www.youtube.com/s/player/7ee36b0e/player_ias.vflset/pt_BR/base.js:1882:57
+g.XJa@https://www.youtube.com/s/player/7ee36b0e/player_ias.vflset/pt_BR/base.js:3974:42
+g.k.IQ@https://www.youtube.com/s/player/7ee36b0e/player_ias.vflset/pt_BR/base.js:12154:126
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/7ee36b0e/player_ias.vflset/pt_BR/base.js:12047:102
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/7ee36b0e/player_ias.vflset/pt_BR/base.js:10238:62
+pU/a.state.j[b]@https://www.youtube.com/s/player/7ee36b0e/player_ias.vflset/pt_BR/base.js:4739:53
+bx/<@https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js:1804:106
+nx@https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js:1839:46
+rx<@https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js:1846:183
+Nk/<@https://www.youtube.com/s/player/7ee36b0e/www-embed-player.vflset/www-embed-player.js:843:63
+
+JavaScript warning: https://www.google.com/js/th/L_VXeMsvUWvqIVWyYZ0MwBrIHX7eOw577PffvJy4mPo.js line 2 > eval line 3516 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/L_VXeMsvUWvqIVWyYZ0MwBrIHX7eOw577PffvJy4mPo.js line 2 > eval line 3409 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/L_VXeMsvUWvqIVWyYZ0MwBrIHX7eOw577PffvJy4mPo.js line 2 > eval line 3977 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/L_VXeMsvUWvqIVWyYZ0MwBrIHX7eOw577PffvJy4mPo.js line 2 > eval line 2323 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+console.error: ({})
+console.error: ({})
+[Child 8748, MediaDecoderStateMachine #1] WARNING: Decoder=1f761c6c300 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 8748, MediaDecoderStateMachine #1] WARNING: Decoder=1f761c6c300 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript error: , line 0: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+1694570646587	Marionette	INFO	Stopped listening on port 51988
+JavaScript warning: https://www.google.com/js/th/L_VXeMsvUWvqIVWyYZ0MwBrIHX7eOw577PffvJy4mPo.js line 2 > eval line 1650 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Dynamically enable window occlusion 1

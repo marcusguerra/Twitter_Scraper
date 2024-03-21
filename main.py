@@ -1,7 +1,6 @@
 import csv
 import unicodedata
 from datetime import datetime, timedelta
-from unidecode import unidecode
 import functions as ft
 
 with open("output.txt", "r", encoding="utf-8") as file:

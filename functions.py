@@ -1,7 +1,6 @@
 import csv
 import unicodedata
 from datetime import datetime, timedelta
-from unidecode import unidecode
 
 def limpa(lines):
     pos = []
