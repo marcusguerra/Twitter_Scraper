@@ -17,7 +17,7 @@ def convert_to_datetime(date_str):
     except ValueError:
         return None  # Return None in case of parsing error
 
-with open('../agro.html', 'r', encoding='utf-8') as file:
+with open('../Resultados/agro.html', 'r', encoding='utf-8') as file:
     html_content = file.read()
 
 soup = BeautifulSoup(html_content, 'html.parser')

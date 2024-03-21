@@ -5,7 +5,7 @@ import time
 def run(palavraChave):
     link = 'https://twitter.com'
     scroll_delay = 4
-    output_file = 'output.txt'
+    output_file = 'Resultados/output.txt'
     options = Options()
     options.binary_location = "C:\\Users\\cotoq\\AppData\\Local\\Mozilla Firefox\\firefox.exe"
 

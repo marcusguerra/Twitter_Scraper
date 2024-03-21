@@ -1,21 +1,19 @@
-import csv
 import unicodedata
-from datetime import datetime, timedelta
 import functions as ft
 
-with open("output.txt", "r", encoding="utf-8") as file:
+with open("Resultados/output.txt", "r", encoding="utf-8") as file:
     lines = file.readlines()
 
 lines = [line for line in lines if line.strip()]
 
-with open("output.txt", "w", encoding="utf-8") as file:
+with open("Resultados/output.txt", "w", encoding="utf-8") as file:
     file.writelines(lines)
 
-file_path = "output.txt"
+file_path = "Resultados/output.txt"
 file = open(file_path, "r", encoding="utf-8")
 lines = []
 
-csv_file = "dados.csv"
+csv_file = "Resultados/dados.csv"
 
 for line in file:
     lines.append(line.strip())
@@ -44,5 +42,5 @@ print("Foram cópiados ", len(tweets)," Tweets")
 ft.escreveCSV(tweets, horario, csv_file, palavraChave)
 
 
-f = open("output.txt", "w", encoding="utf-8")
+f = open("Resultados/output.txt", "w", encoding="utf-8")
 f.close()
